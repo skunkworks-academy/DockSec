@@ -1,4 +1,4 @@
-FROM python:3.12-slim
+FROM ghcr.io/skunkworks-academy/docksec:base-python-3.12-slim
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
